@@ -19,15 +19,18 @@ export default function AlterMoor() {
     return (
         <div className={classes.root}>
             <Navbar></Navbar>
-
-            <ul>
-                <li>Alter gebrechlicher Mann</li>
-                <li>
-                    Gutmütiger Mann, der viel Kummer aufgrund seines Sohnes Karl
-                    hat
-                </li>
-                <li>Sehr betroffen, wenn es um seine Söhne geht</li>
-            </ul>
+            <div style={{ marginLeft: "1rem" }}>
+                <h4>Der alte Moor</h4>
+                <ul>
+                    <li>Alter gebrechlicher Mann</li>
+                    <li>
+                        Gutmütiger Mann, der viel Kummer aufgrund seines Sohnes
+                        Karl hat
+                    </li>
+                    <li>Sehr betroffen, wenn es um seine Söhne geht</li>
+                    <li>Schwach</li>
+                </ul>
+            </div>
         </div>
     );
 }
